@@ -1,0 +1,66 @@
+# Operating system and editor files
+.DS_Store
+.idea/
+*.iml
+*.swp
+
+# Xcode generated output and local signing state
+DerivedData/
+build/
+Build/
+.build/
+.build-*/
+xcuserdata/
+*.xcuserstate
+*.xcactivitylog
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
+*.der
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Android/Gradle generated output
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+android/**/*.apk
+android/**/*.aab
+
+# Keep intentional release artifacts in dist/ visible to git.
+!dist/
+!dist/*.ipa
+!dist/*.apk
+!dist/*.png
+!dist/*.jpg
+
+# Cloudflare local state and deployment configuration
+worker/.wrangler/
+worker/.dev.vars
+worker/.env
+worker/.env.*
+!worker/.env.example
+worker/wrangler.toml
+
+# Local assistant metadata and private handoff notes
+.claude/
+HANDOFF.md
+
+# Local/private application data
+**/state.json
+**/Backups/
+**/UserData/
+*.backup.json
+*.private.json
+*.cbz
+*.pdf
+
+# The raw MangaPin export contains personal reading history and embedded cover data.
+Dayforge/Resources/MangaPin.json

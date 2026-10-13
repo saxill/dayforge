@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A2BABF9C74FF0D382E06F /* FocusActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049286994051A25202F7B981 /* FocusActivity.swift */; };
+		053A574126865DA199B22DFF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F84F2115B08563A2F37647 /* Profile.swift */; };
+		1C4F2EAFBF83D358E915475C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A956FD16BA2BA2B281F31EB0 /* ContentView.swift */; };
+		28BCC6C95A813DE235EDA4E6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50113C2B7E69DBC857FB8A /* Theme.swift */; };
+		3AD4800437F6F9BB44BCB73D /* AlarmEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28CC13DDC791AAE5228D95A /* AlarmEditorSheet.swift */; };
+		4800BD98C6174B055E480807 /* BudgetSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE5F80A7B73F5773796066 /* BudgetSheet.swift */; };
+		4B46EF913F16D5620722893B /* HabitManagerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6883E292A73AB45F4229694 /* HabitManagerSheet.swift */; };
+		58B5DC82895BB6D77BD8C713 /* MangaShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095DCE397227B7A78D03EC88 /* MangaShelfView.swift */; };
+		5E8629D44517B5AFE0A0E54E /* TodayCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CE072D5BAE3ADB700DDD3 /* TodayCards.swift */; };
+		5E918CCBE7E9BD5B9E720A32 /* PulseShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306799D893C4A383141F478 /* PulseShareSheet.swift */; };
+		6B1E87682FC04B825F20F41A /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B77250E3438EC2001A880E /* Finance.swift */; };
+		6B63F39EAE711E283941401C /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DABD1B1195DC47891A39491 /* TodayView.swift */; };
+		6EB69528E1F98631FF487B64 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A0A6AB8A1329816213AD4 /* Cloud.swift */; };
+		6EE0861F71FC202B63325F77 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0837BFD4820A0A5C5E610F8A /* AppState.swift */; };
+		73138538019892ED2403ECE7 /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38AEB9100F369F7A4D36BA2 /* FocusTimer.swift */; };
+		73C7B068F9D637C847FB6C30 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F8CEF602567F3965B9D7A0 /* FocusView.swift */; };
+		743911B623BA7265952F3C88 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A207D52C0712C03F85AF8A37 /* Components.swift */; };
+		78B6FC2099FCB92DCB261B61 /* FocusDurationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF411C9880990F04A2C26A /* FocusDurationSheet.swift */; };
+		7AF4892DE6DC77188BC90438 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0207D1DEF48EACCD52D28 /* ProfileView.swift */; };
+		81BDBE8AF1B79A69403303C5 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0733D73167207E5E9600A /* Avatar.swift */; };
+		84BCBCB685A66FCEC882D6B1 /* MangaPinPublic.json in Resources */ = {isa = PBXBuildFile; fileRef = 34858E23304A30405C4B961F /* MangaPinPublic.json */; };
+		84CEF94304443B7F82231851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA0A1BD967B3D45DEB36282 /* Assets.xcassets */; };
+		85323C46A59B5FBFAF3E5515 /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1364DEA96A9FFBEC5EEDAF68 /* Shortcuts.swift */; };
+		855F01DAD51399FDE741C0A4 /* FocusActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049286994051A25202F7B981 /* FocusActivity.swift */; };
+		867619BD1ED1B8BD184010A0 /* DayforgeWidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59481A78B9918CB453FD0993 /* DayforgeWidgetData.swift */; };
+		95E1A2A06F2E9B9E7C8110A1 /* DrillModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BF1D147CACAF3B3398329 /* DrillModels.swift */; };
+		9658673181FD9B5B160D7AE5 /* DayforgeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C498A18A8C7668072FC985 /* DayforgeWidgets.swift */; };
+		9CC6167F762A1FFF6EF52FB5 /* BrainTrainingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F702D9F39C8903FB609A053 /* BrainTrainingSheet.swift */; };
+		A0617C4BFC28620A7A4448B5 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A074E5414A48699018D1AF /* AddExpenseSheet.swift */; };
+		A2A53052824F8BD2F2A80274 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B91FD3FE59AC1E8A423BFBB /* DiscoverView.swift */; };
+		A331712BD7F694681EB17BE6 /* DayforgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC8DE8D9D70DA0D54F94D1 /* DayforgeApp.swift */; };
+		AEE6CB5EA09C448C7C5C5797 /* DayforgeWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EBEF91A48E98BC6B00BA98E4 /* DayforgeWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2D9EF4C67FC10AD5EDB5772 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B77250E3438EC2001A880E /* Finance.swift */; };
+		B9ACC2DEB34BEA1D7010B22F /* MangaArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035E6366C2744B5A342812D /* MangaArt.swift */; };
+		BD7B53CDB47A2C79205420D7 /* DrillEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65280834361E8AE7E3D905D /* DrillEngine.swift */; };
+		CC1E7A71A58F2D0CC679919F /* ImportBackupSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B0D09D8DFDC1A586A2E46F /* ImportBackupSheet.swift */; };
+		CE1EC1717740C5C7CA326672 /* BackupImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1C76A9BA6ECD26D3AACBC /* BackupImport.swift */; };
+		DD8460CEC9A236299951F844 /* LocalReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CCDFE31F00F4D2C2CE2202 /* LocalReader.swift */; };
+		DF3AA866FB196B68C7BC8C24 /* WebBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41434C503CBD83BECAC416 /* WebBrowser.swift */; };
+		E1C70D2CA4FC376B39E5165A /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE90407B96A79E3B293C6B9 /* Pairing.swift */; };
+		E258393C90C32969AE31AFBC /* SettingsPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26E37D442C52797F3BD598D /* SettingsPersistence.swift */; };
+		E81D89AE090DE60CD6FEF7F5 /* MangaSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2F26F69DEA35DF6D9E65F /* MangaSource.swift */; };
+		F187B22A0A6E5D995BAEEA51 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7BC42A4938E0C077629BD1 /* SampleData.swift */; };
+		F33F63D304BD2CDF65C30653 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2AE662E663FBD81B63ABE2 /* Models.swift */; };
+		F40F33F2D8B608412A737EE8 /* PairingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266B23071C71855614218A1 /* PairingSheet.swift */; };
+		F71720500479BC35A91CC22B /* DayforgeWidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59481A78B9918CB453FD0993 /* DayforgeWidgetData.swift */; };
+		FDB2307A9A1882EE877034B9 /* DetailSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CB5089EF3F9D9FCFB42A5E /* DetailSheets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1059602DE02A5149D0B0A4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF8ADEC108BC30E94DA023F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01EDAF12E9ACFD61700896D3;
+			remoteInfo = DayforgeWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81120E3E8EE08A033E8558B4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AEE6CB5EA09C448C7C5C5797 /* DayforgeWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		049286994051A25202F7B981 /* FocusActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusActivity.swift; sourceTree = "<group>"; };
+		0837BFD4820A0A5C5E610F8A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		08B2F26F69DEA35DF6D9E65F /* MangaSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaSource.swift; sourceTree = "<group>"; };
+		095DCE397227B7A78D03EC88 /* MangaShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaShelfView.swift; sourceTree = "<group>"; };
+		0B91FD3FE59AC1E8A423BFBB /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		1364DEA96A9FFBEC5EEDAF68 /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
+		219C28F70C20396C71F14EA4 /* Dayforge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Dayforge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5CE072D5BAE3ADB700DDD3 /* TodayCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCards.swift; sourceTree = "<group>"; };
+		34858E23304A30405C4B961F /* MangaPinPublic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MangaPinPublic.json; sourceTree = "<group>"; };
+		40B77250E3438EC2001A880E /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		46B0D09D8DFDC1A586A2E46F /* ImportBackupSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportBackupSheet.swift; sourceTree = "<group>"; };
+		4FC94DC6844A4601E167CD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		50D0207D1DEF48EACCD52D28 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		59481A78B9918CB453FD0993 /* DayforgeWidgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayforgeWidgetData.swift; sourceTree = "<group>"; };
+		62FF411C9880990F04A2C26A /* FocusDurationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusDurationSheet.swift; sourceTree = "<group>"; };
+		67C498A18A8C7668072FC985 /* DayforgeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayforgeWidgets.swift; sourceTree = "<group>"; };
+		6DABD1B1195DC47891A39491 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		6F702D9F39C8903FB609A053 /* BrainTrainingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTrainingSheet.swift; sourceTree = "<group>"; };
+		74A074E5414A48699018D1AF /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
+		75F84F2115B08563A2F37647 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7B2AE662E663FBD81B63ABE2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7D7BC42A4938E0C077629BD1 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		884BF1D147CACAF3B3398329 /* DrillModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillModels.swift; sourceTree = "<group>"; };
+		9E50113C2B7E69DBC857FB8A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A207D52C0712C03F85AF8A37 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A38AEB9100F369F7A4D36BA2 /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		A65280834361E8AE7E3D905D /* DrillEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillEngine.swift; sourceTree = "<group>"; };
+		A956FD16BA2BA2B281F31EB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA41434C503CBD83BECAC416 /* WebBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowser.swift; sourceTree = "<group>"; };
+		AA4A0A6AB8A1329816213AD4 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		ABA0733D73167207E5E9600A /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B1CB5089EF3F9D9FCFB42A5E /* DetailSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheets.swift; sourceTree = "<group>"; };
+		B306799D893C4A383141F478 /* PulseShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseShareSheet.swift; sourceTree = "<group>"; };
+		BCFC8DE8D9D70DA0D54F94D1 /* DayforgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayforgeApp.swift; sourceTree = "<group>"; };
+		C26E37D442C52797F3BD598D /* SettingsPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPersistence.swift; sourceTree = "<group>"; };
+		C6883E292A73AB45F4229694 /* HabitManagerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitManagerSheet.swift; sourceTree = "<group>"; };
+		CFA0A1BD967B3D45DEB36282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFEE5F80A7B73F5773796066 /* BudgetSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSheet.swift; sourceTree = "<group>"; };
+		D035E6366C2744B5A342812D /* MangaArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaArt.swift; sourceTree = "<group>"; };
+		D266B23071C71855614218A1 /* PairingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingSheet.swift; sourceTree = "<group>"; };
+		D4CCDFE31F00F4D2C2CE2202 /* LocalReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalReader.swift; sourceTree = "<group>"; };
+		D5F8CEF602567F3965B9D7A0 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		DC388FD5E34BFF31F5F42522 /* Dayforge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dayforge.entitlements; sourceTree = "<group>"; };
+		DFA1C76A9BA6ECD26D3AACBC /* BackupImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupImport.swift; sourceTree = "<group>"; };
+		E0868F54F5CBB4F85273DB3B /* DayforgeWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DayforgeWidgets.entitlements; sourceTree = "<group>"; };
+		EBEF91A48E98BC6B00BA98E4 /* DayforgeWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DayforgeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28CC13DDC791AAE5228D95A /* AlarmEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditorSheet.swift; sourceTree = "<group>"; };
+		FBE90407B96A79E3B293C6B9 /* Pairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1130360B635E686AB450F786 /* DayforgeWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				E0868F54F5CBB4F85273DB3B /* DayforgeWidgets.entitlements */,
+				67C498A18A8C7668072FC985 /* DayforgeWidgets.swift */,
+				4FC94DC6844A4601E167CD3C /* Info.plist */,
+			);
+			path = DayforgeWidgets;
+			sourceTree = "<group>";
+		};
+		2A4F6635F3E74787C75B4CCA /* .cc-writes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ".cc-writes";
+			sourceTree = "<group>";
+		};
+		45AB5A18BD5951592FD272EC /* Dayforge */ = {
+			isa = PBXGroup;
+			children = (
+				74A074E5414A48699018D1AF /* AddExpenseSheet.swift */,
+				F28CC13DDC791AAE5228D95A /* AlarmEditorSheet.swift */,
+				0837BFD4820A0A5C5E610F8A /* AppState.swift */,
+				CFA0A1BD967B3D45DEB36282 /* Assets.xcassets */,
+				ABA0733D73167207E5E9600A /* Avatar.swift */,
+				DFA1C76A9BA6ECD26D3AACBC /* BackupImport.swift */,
+				6F702D9F39C8903FB609A053 /* BrainTrainingSheet.swift */,
+				CFEE5F80A7B73F5773796066 /* BudgetSheet.swift */,
+				AA4A0A6AB8A1329816213AD4 /* Cloud.swift */,
+				A207D52C0712C03F85AF8A37 /* Components.swift */,
+				A956FD16BA2BA2B281F31EB0 /* ContentView.swift */,
+				DC388FD5E34BFF31F5F42522 /* Dayforge.entitlements */,
+				BCFC8DE8D9D70DA0D54F94D1 /* DayforgeApp.swift */,
+				B1CB5089EF3F9D9FCFB42A5E /* DetailSheets.swift */,
+				0B91FD3FE59AC1E8A423BFBB /* DiscoverView.swift */,
+				A65280834361E8AE7E3D905D /* DrillEngine.swift */,
+				884BF1D147CACAF3B3398329 /* DrillModels.swift */,
+				62FF411C9880990F04A2C26A /* FocusDurationSheet.swift */,
+				A38AEB9100F369F7A4D36BA2 /* FocusTimer.swift */,
+				D5F8CEF602567F3965B9D7A0 /* FocusView.swift */,
+				C6883E292A73AB45F4229694 /* HabitManagerSheet.swift */,
+				46B0D09D8DFDC1A586A2E46F /* ImportBackupSheet.swift */,
+				D4CCDFE31F00F4D2C2CE2202 /* LocalReader.swift */,
+				D035E6366C2744B5A342812D /* MangaArt.swift */,
+				095DCE397227B7A78D03EC88 /* MangaShelfView.swift */,
+				08B2F26F69DEA35DF6D9E65F /* MangaSource.swift */,
+				7B2AE662E663FBD81B63ABE2 /* Models.swift */,
+				FBE90407B96A79E3B293C6B9 /* Pairing.swift */,
+				D266B23071C71855614218A1 /* PairingSheet.swift */,
+				75F84F2115B08563A2F37647 /* Profile.swift */,
+				50D0207D1DEF48EACCD52D28 /* ProfileView.swift */,
+				B306799D893C4A383141F478 /* PulseShareSheet.swift */,
+				7D7BC42A4938E0C077629BD1 /* SampleData.swift */,
+				C26E37D442C52797F3BD598D /* SettingsPersistence.swift */,
+				1364DEA96A9FFBEC5EEDAF68 /* Shortcuts.swift */,
+				9E50113C2B7E69DBC857FB8A /* Theme.swift */,
+				2F5CE072D5BAE3ADB700DDD3 /* TodayCards.swift */,
+				6DABD1B1195DC47891A39491 /* TodayView.swift */,
+				AA41434C503CBD83BECAC416 /* WebBrowser.swift */,
+				A6E44041155CD728964995DC /* .claude */,
+				F405EFB0EDB122D7B317A83C /* Resources */,
+			);
+			path = Dayforge;
+			sourceTree = "<group>";
+		};
+		6CC7126991C8CA4548AE5C33 = {
+			isa = PBXGroup;
+			children = (
+				45AB5A18BD5951592FD272EC /* Dayforge */,
+				1130360B635E686AB450F786 /* DayforgeWidgets */,
+				E9DA47540188FF25CE634685 /* Shared */,
+				971FA6AD37BB0AF3F5022AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		971FA6AD37BB0AF3F5022AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219C28F70C20396C71F14EA4 /* Dayforge.app */,
+				EBEF91A48E98BC6B00BA98E4 /* DayforgeWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E44041155CD728964995DC /* .claude */ = {
+			isa = PBXGroup;
+			children = (
+				2A4F6635F3E74787C75B4CCA /* .cc-writes */,
+			);
+			path = .claude;
+			sourceTree = "<group>";
+		};
+		E9DA47540188FF25CE634685 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				59481A78B9918CB453FD0993 /* DayforgeWidgetData.swift */,
+				40B77250E3438EC2001A880E /* Finance.swift */,
+				049286994051A25202F7B981 /* FocusActivity.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F405EFB0EDB122D7B317A83C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34858E23304A30405C4B961F /* MangaPinPublic.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EDAF12E9ACFD61700896D3 /* DayforgeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9B3081B296A409B0AA91B1 /* Build configuration list for PBXNativeTarget "DayforgeWidgets" */;
+			buildPhases = (
+				904EE74211D7220C1366AF76 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayforgeWidgets;
+			packageProductDependencies = (
+			);
+			productName = DayforgeWidgets;
+			productReference = EBEF91A48E98BC6B00BA98E4 /* DayforgeWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BB223E432D055606D8205121 /* Dayforge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F06AA1F416B18E2DED9280 /* Build configuration list for PBXNativeTarget "Dayforge" */;
+			buildPhases = (
+				5A2F91B6619F8E07BCFF0EAD /* Sources */,
+				AAEF4E7017FA13B29B36ED1B /* Resources */,
+				81120E3E8EE08A033E8558B4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7F454D9B3251497E61905D /* PBXTargetDependency */,
+			);
+			name = Dayforge;
+			packageProductDependencies = (
+			);
+			productName = Dayforge;
+			productReference = 219C28F70C20396C71F14EA4 /* Dayforge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF8ADEC108BC30E94DA023F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01EDAF12E9ACFD61700896D3 = {
+						DevelopmentTeam = K75VPCXM64;
+						ProvisioningStyle = Automatic;
+					};
+					BB223E432D055606D8205121 = {
+						DevelopmentTeam = K75VPCXM64;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D05B91FD4DCA35F1FD1CE1B7 /* Build configuration list for PBXProject "Dayforge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6CC7126991C8CA4548AE5C33;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 971FA6AD37BB0AF3F5022AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB223E432D055606D8205121 /* Dayforge */,
+				01EDAF12E9ACFD61700896D3 /* DayforgeWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEF4E7017FA13B29B36ED1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CEF94304443B7F82231851 /* Assets.xcassets in Resources */,
+				84BCBCB685A66FCEC882D6B1 /* MangaPinPublic.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2F91B6619F8E07BCFF0EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0617C4BFC28620A7A4448B5 /* AddExpenseSheet.swift in Sources */,
+				3AD4800437F6F9BB44BCB73D /* AlarmEditorSheet.swift in Sources */,
+				6EE0861F71FC202B63325F77 /* AppState.swift in Sources */,
+				81BDBE8AF1B79A69403303C5 /* Avatar.swift in Sources */,
+				CE1EC1717740C5C7CA326672 /* BackupImport.swift in Sources */,
+				9CC6167F762A1FFF6EF52FB5 /* BrainTrainingSheet.swift in Sources */,
+				4800BD98C6174B055E480807 /* BudgetSheet.swift in Sources */,
+				6EB69528E1F98631FF487B64 /* Cloud.swift in Sources */,
+				743911B623BA7265952F3C88 /* Components.swift in Sources */,
+				1C4F2EAFBF83D358E915475C /* ContentView.swift in Sources */,
+				A331712BD7F694681EB17BE6 /* DayforgeApp.swift in Sources */,
+				F71720500479BC35A91CC22B /* DayforgeWidgetData.swift in Sources */,
+				FDB2307A9A1882EE877034B9 /* DetailSheets.swift in Sources */,
+				A2A53052824F8BD2F2A80274 /* DiscoverView.swift in Sources */,
+				BD7B53CDB47A2C79205420D7 /* DrillEngine.swift in Sources */,
+				95E1A2A06F2E9B9E7C8110A1 /* DrillModels.swift in Sources */,
+				B2D9EF4C67FC10AD5EDB5772 /* Finance.swift in Sources */,
+				855F01DAD51399FDE741C0A4 /* FocusActivity.swift in Sources */,
+				78B6FC2099FCB92DCB261B61 /* FocusDurationSheet.swift in Sources */,
+				73138538019892ED2403ECE7 /* FocusTimer.swift in Sources */,
+				73C7B068F9D637C847FB6C30 /* FocusView.swift in Sources */,
+				4B46EF913F16D5620722893B /* HabitManagerSheet.swift in Sources */,
+				CC1E7A71A58F2D0CC679919F /* ImportBackupSheet.swift in Sources */,
+				DD8460CEC9A236299951F844 /* LocalReader.swift in Sources */,
+				B9ACC2DEB34BEA1D7010B22F /* MangaArt.swift in Sources */,
+				58B5DC82895BB6D77BD8C713 /* MangaShelfView.swift in Sources */,
+				E81D89AE090DE60CD6FEF7F5 /* MangaSource.swift in Sources */,
+				F33F63D304BD2CDF65C30653 /* Models.swift in Sources */,
+				E1C70D2CA4FC376B39E5165A /* Pairing.swift in Sources */,
+				F40F33F2D8B608412A737EE8 /* PairingSheet.swift in Sources */,
+				053A574126865DA199B22DFF /* Profile.swift in Sources */,
+				7AF4892DE6DC77188BC90438 /* ProfileView.swift in Sources */,
+				5E918CCBE7E9BD5B9E720A32 /* PulseShareSheet.swift in Sources */,
+				F187B22A0A6E5D995BAEEA51 /* SampleData.swift in Sources */,
+				E258393C90C32969AE31AFBC /* SettingsPersistence.swift in Sources */,
+				85323C46A59B5FBFAF3E5515 /* Shortcuts.swift in Sources */,
+				28BCC6C95A813DE235EDA4E6 /* Theme.swift in Sources */,
+				5E8629D44517B5AFE0A0E54E /* TodayCards.swift in Sources */,
+				6B63F39EAE711E283941401C /* TodayView.swift in Sources */,
+				DF3AA866FB196B68C7BC8C24 /* WebBrowser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904EE74211D7220C1366AF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867619BD1ED1B8BD184010A0 /* DayforgeWidgetData.swift in Sources */,
+				9658673181FD9B5B160D7AE5 /* DayforgeWidgets.swift in Sources */,
+				6B1E87682FC04B825F20F41A /* Finance.swift in Sources */,
+				051A2BABF9C74FF0D382E06F /* FocusActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7F454D9B3251497E61905D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01EDAF12E9ACFD61700896D3 /* DayforgeWidgets */;
+			targetProxy = 1059602DE02A5149D0B0A4E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F17B69C47822707523BC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B50BF6A3590C3D9F184D1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DayforgeWidgets/DayforgeWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75VPCXM64;
+				INFOPLIST_FILE = DayforgeWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnirush.dayforge.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B192C52EB08686174FDB8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dayforge/Dayforge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75VPCXM64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dayforge;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnirush.dayforge;
+				PRODUCT_NAME = Dayforge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B31A58FF40E947BED4BA5D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DayforgeWidgets/DayforgeWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75VPCXM64;
+				INFOPLIST_FILE = DayforgeWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnirush.dayforge.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E02B5317EE3B0537818EE43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Dayforge/Dayforge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K75VPCXM64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dayforge;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnirush.dayforge;
+				PRODUCT_NAME = Dayforge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF3903F83026720D2EADD51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9B3081B296A409B0AA91B1 /* Build configuration list for PBXNativeTarget "DayforgeWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B50BF6A3590C3D9F184D1DF /* Debug */,
+				B31A58FF40E947BED4BA5D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92F06AA1F416B18E2DED9280 /* Build configuration list for PBXNativeTarget "Dayforge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B192C52EB08686174FDB8B96 /* Debug */,
+				E02B5317EE3B0537818EE43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D05B91FD4DCA35F1FD1CE1B7 /* Build configuration list for PBXProject "Dayforge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F17B69C47822707523BC74 /* Debug */,
+				EF3903F83026720D2EADD51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF8ADEC108BC30E94DA023F /* Project object */;
+}
